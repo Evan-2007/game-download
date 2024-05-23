@@ -8,24 +8,24 @@ interface Games {
 
 const games: Games[] = [
   {
-    name: 'Game 1',
-    platform: ['Windows', 'Mac'],
-    links: [ 'Bambu_Studio_win-v01.09.01.66.exe ', 'uploading']
+    name: 'Escape',
+    platform: ['Windows'],
+    links: [ 'escape.zip', 'uploading']
   },
   {
-    name: 'Game 2',
-    platform: ['Windows', 'Mac'],
-    links: [ 'uploading', 'uploading']
+    name: 'Eye Spy',
+    platform: ['Windows'],
+    links: [ 'Eye Spy.zip', 'uploading']
   },
   {
-    name: 'Game 3',
-    platform: ['Windows', 'Mac'],
-    links: [ 'uploading']
+    name: 'Dongeon Delve',
+    platform: ['Windows'],
+    links: [ 'DungeonDelve.zip']
   },
   {
-    name: 'Game 4',
-    platform: ['Windows', 'Mac'],
-    links: [ 'uploading', 'uploading']
+    name: 'Race Rave Ice Edition',
+    platform: ['Windows'],
+    links: [ 'RaceRaveIceEdition.zip', 'uploading']
   },
 ]
 
