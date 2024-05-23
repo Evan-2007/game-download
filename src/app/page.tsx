@@ -27,6 +27,11 @@ const games: Games[] = [
     platform: ['Windows'],
     links: [ 'RaceRaveIceEdition.zip', 'uploading']
   },
+  {
+    name: 'Root Beer Runner',
+    platform: ['Windows'],
+    links: [ 'RootBeerRunner.zip', 'uploading']
+  }
 ]
 
 
