@@ -18,7 +18,7 @@ const games: Games[] = [
     links: [ 'Eye Spy.zip', 'uploading']
   },
   {
-    name: 'Dongeon Delve',
+    name: 'Dungeon Delve',
     platform: ['Windows'],
     links: [ 'DungeonDelve.zip']
   },
