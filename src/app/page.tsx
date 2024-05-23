@@ -46,7 +46,7 @@ export default function page() {
 function GameCard({ game }: { game: Games }) {
   return (
     <div className="flex flex-col items-center justify-center bg-gray-950 w-64 mt-5 h-36 rounded-2xl mr-10">
-      <h1 className="text-3xl">{game.name}</h1>
+      <h1 className="text-3xl text-wrap text-center">{game.name}</h1>
       <h1 className="text-1xl mt-4">Downloads:</h1>
       <div className="flex flex-row items-center justify-between mt-2">
         {game.links.map((link, index) => (
