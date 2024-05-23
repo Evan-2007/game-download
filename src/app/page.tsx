@@ -59,7 +59,7 @@ function GameCard({ game }: { game: Games }) {
             >
               {game.platform[index]}
             </a>
-            {index !== game.links.length - 1 && <h1 className="text-1xl">|</h1>}
+            {index !== game.links.length - 1 && <h1 className="text-1xl"></h1>}
           </>
         ))}
       </div>
