@@ -9,6 +9,7 @@ import {
 } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
+import {ThemeToggle} from "@/components/ui/theme-toggle"
 
 
 interface Games {

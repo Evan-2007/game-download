@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "next-themes";
+import {ThemeToggle} from "@/components/ui/theme-toggle"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,6 +20,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <title>GECS Games</title>
       <body className={"w-screen h-screen bg-black" + inter.className}>
+        {/* <div className="flex justify-between items-center p-4 bg-gray-800 text-white">
+          <h1 className="text-3xl">GECS Games</h1>
+          <div className="flex items-center">
+            <ThemeToggle />
+          </div>
+        </div> */}
           <ThemeProvider
             attribute="class"
             defaultTheme="system"
