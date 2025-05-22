@@ -6,32 +6,65 @@ interface Games {
   links: string[]
 }
 
-const games: Games[] = [
+interface Years {
+  year: string
+  games: Games[]
+}
+
+const games: Years[] = [
   {
-    name: 'Escape',
-    platform: ['Windows'],
-    links: [ 'escape.zip', 'uploading']
+    year: "2025",
+    games: [
+
+    ]
   },
   {
-    name: 'Eye Spy',
-    platform: ['Windows'],
-    links: [ 'Eye Spy.zip', 'uploading']
+    year: "2024", 
+    games:[
+      {
+        name: 'Escape',
+        platform: ['Windows'],
+        links: [ '2025/Elemental Amulet.zip']
+      },
+      {
+        name: 'Eye Spy',
+        platform: ['Windows'],
+        links: [ 'Eye Spy.zip', 'uploading']
+      },
+      {
+        name: 'Dungeon Delve',
+        platform: ['Windows'],
+        links: [ 'DungeonDelve.zip']
+      }
+    ]
+    games: [
+        {
+          name: 'Escape',
+          platform: ['Windows'],
+          links: [ 'escape.zip', 'uploading']
+        },
+        {
+          name: 'Eye Spy',
+          platform: ['Windows'],
+          links: [ 'Eye Spy.zip', 'uploading']
+        },
+        {
+          name: 'Dungeon Delve',
+          platform: ['Windows'],
+          links: [ 'DungeonDelve.zip']
+        },
+        {
+          name: 'Race Rave Ice Edition',
+          platform: ['Windows'],
+          links: [ 'RaceRaveIceEdition.zip', 'uploading']
+        },
+        {
+          name: 'Root Beer Runner',
+          platform: ['Windows'],
+          links: [ 'RootBeerRunner.zip', 'uploading']
+        },
+    ]
   },
-  {
-    name: 'Dungeon Delve',
-    platform: ['Windows'],
-    links: [ 'DungeonDelve.zip']
-  },
-  {
-    name: 'Race Rave Ice Edition',
-    platform: ['Windows'],
-    links: [ 'RaceRaveIceEdition.zip', 'uploading']
-  },
-  {
-    name: 'Root Beer Runner',
-    platform: ['Windows'],
-    links: [ 'RootBeerRunner.zip', 'uploading']
-  }
 ]
 
 
